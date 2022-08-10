@@ -1,0 +1,14 @@
+<suite name="TestNG_Suite">
+	<test name="OrangeHRM">
+		<classes>
+			<class name="TestCasess.login">
+			</class>
+		</classes>
+	</test>
+	<test name="Orangehrm">
+		<classes>
+			<class name="TestCasess.addmodule">
+			</class>
+		</classes>
+	</test>
+</suite>

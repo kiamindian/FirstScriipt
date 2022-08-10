@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestNG_Suite" duration-ms="37885" started-at="2022-08-05T12:15:03Z" finished-at="2022-08-05T12:15:41Z">
+    <groups>
+    </groups>
+    <test name="OrangeHRM" duration-ms="18623" started-at="2022-08-05T12:15:03Z" finished-at="2022-08-05T12:15:22Z">
+      <class name="TestCasess.login">
+        <test-method status="PASS" signature="loginPage()[pri:0, instance:TestCasess.login@3ffc5af1]" name="loginPage" duration-ms="5000" started-at="2022-08-05T17:45:03Z" finished-at="2022-08-05T17:45:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPage -->
+        <test-method status="PASS" signature="EmpModuleDislpayed()[pri:0, instance:TestCasess.login@3ffc5af1]" name="EmpModuleDislpayed" duration-ms="12550" started-at="2022-08-05T17:45:08Z" depends-on-methods="TestCasess.login.loginPage" finished-at="2022-08-05T17:45:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EmpModuleDislpayed -->
+        <test-method status="PASS" signature="isErrorMsgDisplayed()[pri:0, instance:TestCasess.login@3ffc5af1]" name="isErrorMsgDisplayed" duration-ms="1057" started-at="2022-08-05T17:45:21Z" depends-on-methods="TestCasess.login.EmpModuleDislpayed" finished-at="2022-08-05T17:45:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isErrorMsgDisplayed -->
+      </class> <!-- TestCasess.login -->
+    </test> <!-- OrangeHRM -->
+    <test name="Orangehrm" duration-ms="19246" started-at="2022-08-05T12:15:22Z" finished-at="2022-08-05T12:15:41Z">
+      <class name="TestCasess.addmodule">
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:TestCasess.addmodule@57baeedf]" name="launchApp" is-config="true" duration-ms="5739" started-at="2022-08-05T17:44:57Z" finished-at="2022-08-05T17:45:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="PASS" signature="loginPage()[pri:0, instance:TestCasess.addmodule@57baeedf]" name="loginPage" is-config="true" duration-ms="1271" started-at="2022-08-05T17:45:22Z" finished-at="2022-08-05T17:45:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPage -->
+        <test-method status="PASS" signature="addempmodule()[pri:0, instance:TestCasess.addmodule@57baeedf]" name="addempmodule" duration-ms="11025" started-at="2022-08-05T17:45:23Z" finished-at="2022-08-05T17:45:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addempmodule -->
+        <test-method status="PASS" signature="addemployee()[pri:0, instance:TestCasess.addmodule@57baeedf]" name="addemployee" duration-ms="5755" started-at="2022-08-05T17:45:34Z" depends-on-methods="TestCasess.addmodule.addempmodule" finished-at="2022-08-05T17:45:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addemployee -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:TestCasess.addmodule@57baeedf]" name="logout" is-config="true" duration-ms="1187" started-at="2022-08-05T17:45:40Z" finished-at="2022-08-05T17:45:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:TestCasess.addmodule@57baeedf]" name="closeApp" is-config="true" duration-ms="301" started-at="2022-08-05T17:45:41Z" finished-at="2022-08-05T17:45:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- TestCasess.addmodule -->
+    </test> <!-- Orangehrm -->
+  </suite> <!-- TestNG_Suite -->
+</testng-results>
